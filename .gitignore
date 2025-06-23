@@ -1,0 +1,47 @@
+# Archivos de entorno y secretos (MUY IMPORTANTE)
+.env
+.env.*
+*.env
+
+# Entornos virtuales (MUY IMPORTANTE)
+# Directorio donde se instalan las dependencias de Python
+venv/
+env/
+.venv/
+__pycache__/
+
+# Archivos de Python generados
+*.pyc
+*.pyo
+*.pyd
+*.so
+.Python
+
+# Logs y bases de datos locales
+*.log
+*.sqlite
+*.db
+
+# Archivos temporales de editor/IDE (ej. VS Code, PyCharm)
+.vscode/
+.idea/
+*.swp
+*~
+*.bak
+
+# Archivos de cobertura de testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Archivos de dist (distribución)
+dist/
+build/
+*.egg-info/
+
+# Archivos específicos del sistema operativo (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Render-specific (si generas archivos de Render localmente que no deben subir)
+.render/
