@@ -9,6 +9,6 @@ python-jose[cryptography]
 sentence-transformers
 scikit-learn
 pandas
-numpys
+numpy
 python-multipart
 bcrypt
