@@ -12,7 +12,7 @@ embeddings: np.ndarray = None
 df_total: pd.DataFrame = None
 
 def load_ml_resources():
-    """Carga todos los recursos de Machine Learning en memoria"""
+    """Carga todos los recursos de Machine Learning en memoria."""
     global modelo_st, nn_model, embeddings, df_total
 
     embeddings_file = "embeddings.npy"
