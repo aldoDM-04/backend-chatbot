@@ -12,3 +12,4 @@ pandas
 numpy
 python-multipart
 bcrypt
+deepl
